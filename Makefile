@@ -1,4 +1,4 @@
-default: all
+default: toolchain
 
 platform-tools-latest-darwin.zip:
 	wget https://dl.google.com/android/repository/platform-tools-latest-darwin.zip
@@ -21,4 +21,4 @@ sdk.txt: platform-tools
 toolchain: sdk.txt ndk
 	./ndk/build/tools/make-standalone-toolchain.sh --platform=android-`cat sdk.txt` --install-dir=$@
 
-.PHONY: default all
+.PHONY: default
