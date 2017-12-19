@@ -4,3 +4,4 @@ toolchain/
 sdk.txt
 android-ndk-r16b-darwin-x86_64.zip
 platform-tools-latest-darwin.zip
+*.o

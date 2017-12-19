@@ -42,6 +42,7 @@ export VIRTUAL_ENV
 _OLD_VIRTUAL_PATH="$PATH"
 PATH="$VIRTUAL_ENV/platform-tools:$PATH"
 PATH="$VIRTUAL_ENV/toolchain/bin:$PATH"
+PATH="$VIRTUAL_ENV/bin:$PATH"
 export PATH
 
 _OLD_VIRTUAL_PS1="$PS1"

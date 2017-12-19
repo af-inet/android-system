@@ -13,10 +13,10 @@ make
 
 ## environment
 
-(adds `platform-tools` and `toolchain/bin` to your `PATH`)
+(adds `platform-tools`, `toolchain/bin`, and `bin` to your `PATH`)
 
 ```
-. bin/activate
+. activate
 ```
 
 ```
